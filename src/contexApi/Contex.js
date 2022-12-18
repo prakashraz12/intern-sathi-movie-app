@@ -1,7 +1,7 @@
 
 import React, { useContext, useEffect, useState } from "react";
 const AppContex = React.createContext();
-export const MOVIE_API = `http://www.omdbapi.com/?apikey=${process.env.REACT_APP_KEY}&s`;
+export const MOVIE_API = `http://www.omdbapi.com/?apikey=$3feffefe&s`;
 
 const AppProvider = ({ children }) => {
   const [isLoading, setIsLoading] = useState(true);
