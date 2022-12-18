@@ -33,3 +33,18 @@ nav h1 span{
     box-shadow: 3px 3px 8px -3px #ddd;
     background:white;
 }
+@media (max-width:425px){
+    nav{
+        padding: 10px ;
+        margin-bottom: 6px;
+    }
+    nav input{
+        padding: 2px 10px;
+        font-size: 12px;
+        border-radius: 6px;
+        border: 2px solid orange;
+    }
+    nav h1{
+        font-size: 20px;
+    }
+}

@@ -70,3 +70,38 @@
     45px 120px 80px rgba(0, 0, 0, 0.07);
     transition: all ease 0.3s;
 }
+@media (max-width:768px){
+    .movie__card{
+        margin-top: 30px;
+        align-items: center;
+        background: white;
+        height: auto;
+        width: 600px;
+        justify-content: center;
+        display: flex;
+        padding: 10px ;
+        border-radius: 9px;
+    }
+    .back-btn a{
+        font-size: 10px;
+    }
+    .movie__card h2{
+        margin-top: 8px;
+        font-size: 20px
+    }
+}
+@media (max-width:425px){
+    .movie__card{
+        margin-top: 30px;
+        width: 400px;
+        padding: 80px ;
+        border-radius: 9px;
+    }
+    .back-btn a{
+        font-size: 10px;
+    }
+    .movie__card h2{
+        margin-top: 8px;
+        font-size: 15px
+    }
+}
