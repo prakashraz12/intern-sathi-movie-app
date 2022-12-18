@@ -1,0 +1,72 @@
+.movie__Singlepage{
+    background: orange;
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.movie__card{
+    margin-top: 30px;
+    align-items: center;
+    background: white;
+    height: auto;
+    width: 700px;
+    justify-content: center;
+    display: flex;
+    padding: 15px ;
+    border-radius: 9px;
+    flex-direction: column;
+    box-shadow:
+    -1.2px -3.1px 2.2px rgba(0, 0, 0, 0.02),
+    -1.1px -2.9px 5.3px rgba(0, 0, 0, 0.028),
+    0.8px 2.1px 10px rgba(0, 0, 0, 0.035),
+    5.6px 14.9px 17.9px rgba(0, 0, 0, 0.042),
+    16.3px 43.4px 33.4px rgba(0, 0, 0, 0.05),
+    45px 120px 80px rgba(0, 0, 0, 0.07);
+}
+
+.movie__card img{
+   
+    height: 200px;
+    border-radius: 50%;
+    width: 200px;
+}
+.movie__card p{
+    font-size: 15px;
+    margin: 3px;
+}
+.movie__card h2{
+    margin-top: 10px;
+    font-size: 20px;
+}
+.back-btn {
+    background:orange;
+    padding: 10px 20px;
+    border: none;
+    align-items: center;
+    border-radius: 6px;
+    margin-top: 8px;
+    display: flex;
+
+}
+.back-btn  i{
+    padding: 3px;
+    font-size: 15px ;
+    align-items: center;
+}
+.back-btn a{
+    font-size: 15px;
+    color: white;
+    align-items: center;
+}
+.back-btn:hover{
+    box-shadow:
+    -1.2px -3.1px 2.2px rgba(0, 0, 0, 0.02),
+    -1.1px -2.9px 5.3px rgba(0, 0, 0, 0.028),
+    0.8px 2.1px 10px rgba(0, 0, 0, 0.035),
+    5.6px 14.9px 17.9px rgba(0, 0, 0, 0.042),
+    16.3px 43.4px 33.4px rgba(0, 0, 0, 0.05),
+    45px 120px 80px rgba(0, 0, 0, 0.07);
+    transition: all ease 0.3s;
+}
